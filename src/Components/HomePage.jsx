@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { HBlog } from "./HomeBlog"
 import { HBlog2 } from "./HomeBlog2"
 import {HCarousell} from "./HomeCarousel"
+import { HNews } from "./HomeNewsLetter"
 import { HMid } from "./HomePageMid"
 import { HomeVideo } from "./HomeVideo"
 
@@ -23,7 +24,7 @@ export const Home=()=>{
                     <br />
                     <Link to="/signup" style={
                         {textDecoration:"none",
-                        borderRadius:"20%",
+                        borderRadius:"50px",
                         padding:"15px",
                         backgroundColor:"rgb(88,70,246)" ,
                         color:"white"}}>Sign up free</Link>
@@ -38,6 +39,8 @@ export const Home=()=>{
             <HBlog/>
             <HBlog2/>
             <HCarousell/>
+            <HNews/>
+        
           
            
         

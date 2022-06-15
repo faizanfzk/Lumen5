@@ -3,7 +3,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 export const HBlog2=()=>{
     return(
         <Box w={"100%"} marginTop="10rem" marginBottom={"10rem"}>
-      <Box w={"90%"} border="1px solid black" margin={"auto"} display="flex">
+      <Box w={"90%"}  margin={"auto"} display="flex">
         <Box paddingTop={"200px"} paddingLeft="10%">
           <img
             width={"400px"}
