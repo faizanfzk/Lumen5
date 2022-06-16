@@ -3,8 +3,8 @@ import {NavLink} from "react-router-dom"
 
 export const Navbar=()=>{
     return(
-        <Box>
-            <Box w="100%" display={"flex"} justifyContent="space-around">
+        <Box pb={"100px"}>
+            <Box w="100%" display={"flex"} justifyContent="space-around" position={"fixed"} backgroundColor="white" >
                 <Box>
                     <NavLink to="/"><img width={"150px"} paddingRight="80px" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" alt="Lumen5" /></NavLink>
 
