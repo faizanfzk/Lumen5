@@ -1,5 +1,9 @@
 import { Box } from "@chakra-ui/react";
+import { HNews } from "../HomeNewsLetter";
 import { HMid } from "../HomePageMid";
+import { HomeVideo } from "../HomeVideo";
+import { EBV } from "./EnterPriseBelowVideo";
+import { ELast } from "./EnterPriseLast";
 import { EVideo } from "./EnterPriseVideo";
 
 export const Enterprise = () => {
@@ -42,6 +46,10 @@ export const Enterprise = () => {
       </Box>
       <HMid/>
       <EVideo/>
+      <EBV/>
+      <ELast/>
+      <HomeVideo/>
+      <HNews />
     </Box>
   );
 };
