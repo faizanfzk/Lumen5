@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Footer } from "./Footer"
 import { HBlog } from "./HomeBlog"
 import { HBlog2 } from "./HomeBlog2"
 import {HCarousell} from "./HomeCarousel"
@@ -40,6 +41,7 @@ export const Home=()=>{
             <HBlog2/>
             <HCarousell/>
             <HNews/>
+            <Footer/>
         
           
            

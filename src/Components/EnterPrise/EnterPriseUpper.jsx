@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react";
+import { Footer } from "../Footer";
 import { HNews } from "../HomeNewsLetter";
 import { HMid } from "../HomePageMid";
 import { HomeVideo } from "../HomeVideo";
@@ -50,6 +51,7 @@ export const Enterprise = () => {
       <ELast/>
       <HomeVideo/>
       <HNews />
+      <Footer/>
     </Box>
   );
 };

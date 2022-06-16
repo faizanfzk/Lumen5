@@ -1,5 +1,6 @@
 import { Box, Text, Heading } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { Footer } from "../Footer";
 import { PBottom } from "./PriceBottom";
 import { PMid } from "./PricingMid";
 
@@ -142,6 +143,7 @@ export const Pricing = () => {
       
       <PMid/>
       <PBottom/>
+      <Footer/>
     </Box>
     
   );
