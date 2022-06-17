@@ -3,6 +3,8 @@ import {Routes,Route} from "react-router-dom"
 import { Enterprise } from "../EnterPrise/EnterPriseUpper"
 import { Home } from "../HomePage"
 import { Pricing } from "../Pricing/PriceUpper"
+import {Signup } from "../Authentication/Signup"
+import { Login } from "../Authentication/Login"
 
 export const AllRoutes=()=>{
 
@@ -12,6 +14,8 @@ export const AllRoutes=()=>{
                 <Route path="/" element={<Home/>}/>
                 <Route path="/pricing" element={<Pricing/>}/>
                 <Route path="/enterprise" element={<Enterprise/>}/>
+                <Route path="/signup" element={<Signup/>}/>
+                <Route path="/login" element={<Login/>}/>
                 
             </Routes>
 

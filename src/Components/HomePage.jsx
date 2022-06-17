@@ -6,10 +6,13 @@ import {HCarousell} from "./HomeCarousel"
 import { HNews } from "./HomeNewsLetter"
 import { HMid } from "./HomePageMid"
 import { HomeVideo } from "./HomeVideo"
+import {Navbar} from "./Navbar"
 
 export const Home=()=>{
     return(
+      
         <div style={{width:"100%"}}>
+              <Navbar/>
 
             <div style={{width:"100%", display:"flex"}}>
 

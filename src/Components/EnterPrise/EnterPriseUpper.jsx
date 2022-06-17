@@ -6,10 +6,12 @@ import { HomeVideo } from "../HomeVideo";
 import { EBV } from "./EnterPriseBelowVideo";
 import { ELast } from "./EnterPriseLast";
 import { EVideo } from "./EnterPriseVideo";
+import { Navbar } from "../Navbar";
 
 export const Enterprise = () => {
   return (
     <Box>
+      <Navbar/>
       <Box w="100%">
         <Box
           style={{ width: "100%", display: "flex", backgroundColor: "black" }}

@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { Footer } from "../Footer";
 import { PBottom } from "./PriceBottom";
 import { PMid } from "./PricingMid";
+import { Navbar } from "../Navbar";
 
 export const Pricing = () => {
   return (
     <Box w={"100%"}>
+      <Navbar/>
       <Box
         w="90%"
         textAlign={"center"}
