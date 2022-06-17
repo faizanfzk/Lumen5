@@ -10,7 +10,7 @@ export const Footer = () => {
             src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-white.png"
             alt="logo"
           />
-          <Text color="white" fontSize={"13px"}>
+          <Text color="white" fontSize={"13px"} lineHeight="1.4rem">
             Lumen5 combines powerful <br /> A.I. with a simple drag-and-<br/>drop interface
             to help you <br /> create professional video <br /> content in minutes.
           </Text>

@@ -49,7 +49,7 @@ export const Pricing = () => {
           
           >
             <Link
-              to="/"
+              to=""
               style={{ textDecoration: "none", textAlign: "center" }}
             >
               Get started
@@ -78,7 +78,7 @@ export const Pricing = () => {
            mt="60px"
           >
             <Link
-              to="/"
+              to="/checkout"
               style={{ textDecoration: "none", textAlign: "center",}}
             >
               Get started
@@ -107,7 +107,7 @@ export const Pricing = () => {
            mt="60px"
           >
             <Link
-              to="/"
+              to="/checkout"
               style={{ textDecoration: "none", textAlign: "center" }}
             >
               Get started

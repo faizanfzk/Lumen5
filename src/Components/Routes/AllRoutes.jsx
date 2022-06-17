@@ -5,6 +5,8 @@ import { Home } from "../HomePage"
 import { Pricing } from "../Pricing/PriceUpper"
 import {Signup } from "../Authentication/Signup"
 import { Login } from "../Authentication/Login"
+import { Checkout } from "../Checkout"
+
 
 export const AllRoutes=()=>{
 
@@ -16,6 +18,8 @@ export const AllRoutes=()=>{
                 <Route path="/enterprise" element={<Enterprise/>}/>
                 <Route path="/signup" element={<Signup/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/checkout" element={<Checkout/>}/>
+                
                 
             </Routes>
 
