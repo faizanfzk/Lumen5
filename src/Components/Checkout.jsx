@@ -19,7 +19,7 @@ export const Checkout=()=>{
     
     return(
         <Box>
-            <Box>
+            <Box w="100%">
                
             <div className="mainAddress">
     <form className="addressForm">
