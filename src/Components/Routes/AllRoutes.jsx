@@ -6,6 +6,7 @@ import { Pricing } from "../Pricing/PriceUpper"
 import {Signup } from "../Authentication/Signup"
 import { Login } from "../Authentication/Login"
 import { Checkout } from "../Checkout"
+import { CaseTOp } from "../CaseStudies/CaseTop"
 
 
 export const AllRoutes=()=>{
@@ -16,6 +17,7 @@ export const AllRoutes=()=>{
                 <Route path="/" element={<Home/>}/>
                 <Route path="/pricing" element={<Pricing/>}/>
                 <Route path="/enterprise" element={<Enterprise/>}/>
+                <Route path="/casestudies" element={<CaseTOp/>}/>
                 <Route path="/signup" element={<Signup/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/checkout" element={<Checkout/>}/>

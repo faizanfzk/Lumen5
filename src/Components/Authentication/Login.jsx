@@ -1,5 +1,5 @@
 import { Box, Text } from "@chakra-ui/react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
@@ -50,7 +50,7 @@ export const Login = () => {
 
   return (
     <Box>
-      <Box w={"100%"} display="flex" justifyContent={"space-between"}>
+      <Box w={"100%"} h="100%" display="flex" justifyContent={"space-between"}>
         <Link to="/" style={{ textDecoration: "none" }}>
           <Box backgroundColor={"rgb(99, 80, 236)"} w={"30%"} position="fixed">
             <img
@@ -211,6 +211,14 @@ export const Login = () => {
               >
                 Login
               </Button>
+              <Box display={"flex"} pt="30px">
+                <Box>
+              <Text>Create your Account</Text>
+              </Box>
+              <Box pt={"15px"} pl="10px">
+              <NavLink to="/signup" style={{textDecoration:"none"}}>Signup</NavLink>
+              </Box>
+              </Box>
             </FormControl>
           </Flex>
         </Box>

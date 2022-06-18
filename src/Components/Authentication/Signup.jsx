@@ -60,7 +60,7 @@ export const Signup = () => {
 
   return (
     <Box>
-      <Box w={"100%"} display="flex" justifyContent={"space-between"}>
+      <Box w={"100%"} h="100%" display="flex" justifyContent={"space-between"}>
         <NavLink to="/" style={{ textDecoration: "none" }}>
           <Box backgroundColor={"rgb(99, 80, 236)"} w={"30%"} position="fixed">
             <img
@@ -248,13 +248,17 @@ export const Signup = () => {
         >
           Submit
         </Button>
+        <Text>Already have an account ?</Text>
+        <NavLink to="/login" style={{textDecoration:"none"}}> Login</NavLink>
       </FormControl>
       </Flex>
         
 
            
           </Box>
+         
         </Box>
+        
       </Box>
  
   );

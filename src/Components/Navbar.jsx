@@ -48,7 +48,7 @@ export const Navbar = () => {
           </Box>
           <Box pt="30px">
             <NavLink
-              to=""
+              to="/casestudies"
               style={{
                 textDecoration: "none",
                 paddingRight: "35px",
