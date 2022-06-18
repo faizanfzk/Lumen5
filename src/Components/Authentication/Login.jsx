@@ -50,9 +50,10 @@ export const Login = () => {
 
   return (
     <Box>
+      <Box w="100%">
       <Box w={"100%"} h="100%" display="flex" justifyContent={"space-between"}>
         <Link to="/" style={{ textDecoration: "none" }}>
-          <Box backgroundColor={"rgb(99, 80, 236)"} w={"30%"} position="fixed">
+          <Box backgroundColor={"rgb(99, 80, 236)"} w={"30%"} position="fixed" >
             <img
               style={{ paddingLeft: "30px", paddingTop: "30px" }}
               width={"150px"}
@@ -123,7 +124,7 @@ export const Login = () => {
         </Link>
         <Box w={"60%"}>
           <Box>
-            <Heading as={"h1"} paddingLeft={"200px"} fontSize="40px">
+            <Heading as={"h1"} pl="20%" margin="auto" fontSize="40px">
               Welcome Back ! 👏
             </Heading>
           </Box>
@@ -223,6 +224,7 @@ export const Login = () => {
           </Flex>
         </Box>
       </Box>
+    </Box>
     </Box>
   );
 };

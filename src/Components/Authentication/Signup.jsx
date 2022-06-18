@@ -60,6 +60,7 @@ export const Signup = () => {
 
   return (
     <Box>
+      <Box w="100%">
       <Box w={"100%"} h="100%" display="flex" justifyContent={"space-between"}>
         <NavLink to="/" style={{ textDecoration: "none" }}>
           <Box backgroundColor={"rgb(99, 80, 236)"} w={"30%"} position="fixed">
@@ -133,7 +134,7 @@ export const Signup = () => {
         </NavLink>
         <Box w={"60%"}>
           <Box>
-            <Heading paddingLeft={"180px"} as={"h2"} fontWeight="bolder" fontSize="30px">Get started with a free account ✌️</Heading>
+            <Heading as={"h2"} fontWeight="bolder" pl={"20%"} margin="auto" fontSize="30px">Get started with a free account ✌️</Heading>
           </Box>
        
           <Flex
@@ -256,7 +257,7 @@ export const Signup = () => {
 
            
           </Box>
-         
+          </Box>
         </Box>
         
       </Box>
