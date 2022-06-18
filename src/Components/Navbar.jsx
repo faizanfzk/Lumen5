@@ -16,6 +16,7 @@ export const Navbar = () => {
             <img
               width={"150px"}
               paddingRight="80px"
+           
               src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"
               alt="Lumen5"
             />
@@ -27,6 +28,7 @@ export const Navbar = () => {
               to="/pricing"
               style={{
                 textDecoration: "none",
+                color:"black",
                 paddingRight: "35px",
                 paddingTop: "30px",
               }}
@@ -39,6 +41,7 @@ export const Navbar = () => {
               to="/enterprise"
               style={{
                 textDecoration: "none",
+                color:"black",
                 paddingRight: "35px",
                 paddingTop: "30px",
               }}
@@ -51,6 +54,7 @@ export const Navbar = () => {
               to="/casestudies"
               style={{
                 textDecoration: "none",
+                color:"black",
                 paddingRight: "35px",
                 paddingTop: "30px",
               }}
@@ -63,6 +67,7 @@ export const Navbar = () => {
               to=""
               style={{
                 textDecoration: "none",
+                color:"black",
                 paddingRight: "35px",
                 paddingTop: "30px",
               }}

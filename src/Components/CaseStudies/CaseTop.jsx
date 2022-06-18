@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+
 import { Navbar } from "../Navbar";
 import { BMid } from "./CaseBMid";
 import { CaseMid } from "./CaseMid";
@@ -31,8 +31,8 @@ export const CaseTOp = () => {
                 —Michelle Hsiao, Visual Content Director at Siemens AG
               </Text>{" "}
               <br />
-              <Link
-                to=""
+              <a
+                href="https://lumen5.com/case-studies/siemens"
                 style={{
                     fontSize:"16px",
                   textDecoration: "none",
@@ -43,7 +43,7 @@ export const CaseTOp = () => {
                 }}
               >
                 Read Case Study
-              </Link>
+              </a>
             </Text>
           </Box>
           <Box mt="20px">
