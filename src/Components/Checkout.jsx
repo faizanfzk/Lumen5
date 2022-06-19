@@ -32,7 +32,7 @@ export const Checkout=()=>{
       <input type="number" className="CVV" placeholder="Enter your CVV (123)"  required="true"/>
       <p>Expiry Date</p>
       <input type="text" className="expDate" placeholder="Enter expiry date (12/25)" required="true" />
-     <Button type="submit" onClick={handleClick}  className="submit" >Submit</Button>
+     <Button  onClick={handleClick}  className="submit" >Submit</Button>
     </form>
   </div>
 
